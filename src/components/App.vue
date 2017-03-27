@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <h3>Hello, World!</h3>
-    <!--
-    <img src="./assets/logo.png">
-    <router-view></router-view>
-    -->
+    <!-- <img src="./assets/logo.png"> -->
+    <!-- <hello></hello> -->
+    <h3>Hello from HELL</h3>
+    <testcomp/>
   </div>
 </template>
 
 <script>
+import Hello from './components/Hello'
+import Testcomp from './components/Testcomp'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Hello,
+    Testcomp
+  }
 }
 </script>
 
